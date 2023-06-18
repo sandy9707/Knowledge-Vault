@@ -7,6 +7,6 @@ echo $SHELL_FOLDER
 # tree命令生成目录树
 cd $SHELL_FOLDER
 PATH=$PATH:/opt/homebrew/bin
-tree $SHELL_FOLDER -H file:///${SHELL_FOLDER} -o index.html
+tree $SHELL_FOLDER -H https://sandy9707.github.io/Knowledge-Vault/ -o index.html
 
 
