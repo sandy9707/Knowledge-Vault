@@ -3,6 +3,9 @@
 # 获取当前脚本所在目录，并输出
 SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
 echo $SHELL_FOLDER
+LC_ALL=en_US.UTF-8
+LANG=en_US.UTF-8
+_=/usr/bin/env
 
 # tree命令生成目录树
 cd $SHELL_FOLDER
